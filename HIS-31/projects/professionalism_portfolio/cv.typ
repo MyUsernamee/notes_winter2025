@@ -6,15 +6,17 @@
 ])
 
 #let section_title(body) = underline(upper([== #body]))
-#let subsection(lt, rt) = [=== #grid(columns: (1fr, auto), align: (left, right, right), [#lt], [#rt])]
+#let subsection(lt, rt) = [*#grid(columns: (1fr, auto), align: (left, right, right), [#lt], [#rt])*]
 
 #section_title([Summary of Qualifications])
-- Strong ability to work in team setting with proven #strong([Open Source GitHub]) contributions utilizing #strong([Git]). Contributed to #strong([raylib-extras/rlImGui]) which has #strong([487 GitHub Stars]), and is actively used by thousands of users.
-- Very self driven, and quick learner with numerous personal and academic projects. Created a #strong([CUDA GPU Accelerated Light Transport Program])
+- Ability to work in a team with #strong([Open Source GitHub contributions]) utilizing #strong([Git]). Contributed to _raylib-extras/rlImGui_ which has #strong([487 GitHub Stars]), and is actively used by thousands of users.
+- Very self driven, and quick learner with numerous personal and academic projects, for example, created a #strong([CUDA GPU Accelerated Light Transport Program])
 - Strong skills in *Mathematics* and *Programming*-- with coursework and projects to match.
 
 #section_title([Projects])
-
+#subsection([CUDA Light Transport Program / Raytracer], [GPU Programming, CUDA, Linear Algebra])
+#subsection([C++ Raytracer], [C++, Multi-Threading])
+#subsection([Portfolio Website], [Javascript, Tailwind / HTML & CSS, Next.JS])
 
 #section_title[Education]
 #subsection([Moreno Valley College - Moreno Valley, CA], [2023 - Present])
@@ -38,7 +40,7 @@ Relevant Coursework: #linebreak()
   [#strong[MAT-1B -- Calculus 2] : Received an A.],
 )
 
-#subsection([Rancho Verde High School - Perris, CA], [])
+#subsection([Rancho Verde High School - Perris, CA], [2019-2023])
 
 Summary:
 #list(indent: 32pt,
